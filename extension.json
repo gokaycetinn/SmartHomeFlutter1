@@ -1,0 +1,15 @@
+{
+  "name": "SmartHome",
+  "displayName": "SmartHome",
+  "description": "Raspberry Pi 5 ile entegre edilmiş akıllı ev uygulaması",
+  "version": "1.0.0",
+  "repository": "https://github.com/smarthome/app",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "icon": "assets/icon.png"
+}

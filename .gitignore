@@ -1,0 +1,62 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Flutter
+/smart_home/build/
+/smart_home/.dart_tool/
+/smart_home/.flutter-plugins
+/smart_home/.flutter-plugins-dependencies
+/smart_home/.packages
+/smart_home/.pub-cache/
+/smart_home/.pub/
+/smart_home/coverage/
+/smart_home/lib/generated_plugin_registrant.dart
+
+# Node
+backend/node_modules/
+backend/dist/
+backend/.env
+backend/.env.local
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+
+# Archives
+*.zip
+*.tar.gz
+*.rar

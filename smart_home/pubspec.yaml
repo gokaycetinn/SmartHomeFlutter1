@@ -1,0 +1,42 @@
+name: smart_home
+description: Modern SmartHome uygulaması Raspberry Pi ile entegrasyon
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  provider: ^6.0.0
+  intl: ^0.19.0
+  curved_navigation_bar: ^1.0.3
+  fl_chart: ^0.65.0
+  smooth_page_indicator: ^1.1.0
+  connectivity_plus: ^5.0.0
+  animations: ^2.0.7
+  flutter_svg: ^2.0.7
+  get: ^4.6.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_linter: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
